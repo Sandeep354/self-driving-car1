@@ -1,0 +1,20 @@
+Our environment name is 'myenviron'
+>> conda activate myenviron
+
+To create new environment >> conda create --name <name>
+
+You have to use python<3.8 >> conda install python=3.7
+
+Install the following:
+- tensorflow >> conda install -c conda-forge tensorflow
+- keras >> conda install -c conda-forge keras
+- flask >> conda install -c anaconda flask
+- socketio >> conda install -c conda-forge python-socketio
+- eventlet >> conda install -c conda-forge eventlet
+- PIL (python-imaging-library) >> conda install -c anaconda pillow
+- numpy >> conda install -c anaconda numpy
+- opencv (cv2) >> conda install -c conda-forge opencv
+
+If any error while running the code, try upgrading tf and keras:
+>> pip install --upgrade tensorflow 
+>> pip install --upgrade keras
